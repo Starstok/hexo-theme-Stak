@@ -1,0 +1,57 @@
+# Header
+menu:
+  Home: /
+  My Works: /works
+  About: /about
+  #Tags: /tags
+
+rss: /atom.xml
+
+# User Info
+user_name: Starstok
+user_avatar: /img/stak.png
+user_location: Earth
+user_description: "Tech"
+user_contact: Starstoka@gmail.com
+user_introduction: "求知若饥，虚心若愚。
+                    <p>你想用买糖水来度过余生，还是想要一个机会来改变世界？</p>
+                    <p>——史蒂夫·乔布斯（Steve Jobs）</p>"
+
+github_username: Starstok
+twitter_username: 
+weibo_username: Starstok
+zhihu_username: Starstok
+facebook_username:
+linkedin_username:
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# display widgets at the bottom of index pages (pagination == 2)
+#index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+# widget behavior
+#archive_type: 'monthly'
+#show_count: false
+
+# 评论系统
+# 不要用别人的 uid, 自己去注册一个吧
+use_livere: true
+livere_uid: MTAyMC8zMDYzOS83MTk0
+
+use_disqus: false
+disqus_url: https://haojen.disqus.com/embed.js
+
+# Miscellaneous
+google_analytics:
+favicon: /img/favicon.ico
+#twitter:
+#google_plus:
+#fb_admins:
+#fb_app_id:
+
+
