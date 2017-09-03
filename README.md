@@ -5,7 +5,7 @@
 ![cover](./screenshot/claudia-cover.png)
 
 ## 改版后
-![stak](./screenshot/stakr.png)
+![stak](./screenshot/stak.png)
 
 
 ## 使用
