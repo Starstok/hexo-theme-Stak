@@ -26,6 +26,7 @@ $ npm install hexo-tag-dplayer
 
 	{% dplayer "url=http://home.ustc.edu.cn/~mmmwhy/GEM.mp4"  "pic=http://home.ustc.edu.cn/~mmmwhy/GEM.jpg" "loop=yes" "theme=#FADFA3" "autoplay=false" "token=tokendemo" %}
 	
+	
 [点我查看项目演示](https://haojen.github.io/Claudia-theme-blog/)
 
 ![cover](./screenshot/claudia-cover.png)
