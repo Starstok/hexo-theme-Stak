@@ -1,5 +1,31 @@
 # Claudia To Stak
 
+## 安装必备的插件
+
+#### 1.Install hexo-deployer-git.
+```bash
+$ npm install hexo-deployer-git --save
+```
+#### 2.安装播放音乐的aplayer
+```bash
+$ npm install hexo-tag-aplayer
+```
+##### 使用方法：
+
+在markdown内添加以下代码
+
+    {% aplayer "她的睫毛" "周杰伦" "http://home.ustc.edu.cn/~mmmwhy/%d6%dc%bd%dc%c2%d7%20-%20%cb%fd%b5%c4%bd%de%c3%ab.mp3"  "http://home.ustc.edu.cn/~mmmwhy/jay.jpg" "autoplay=false" %}
+
+#### 3.安装播放视频的dplayer
+```bash
+$ npm install hexo-tag-dplayer
+```
+##### 使用方法：
+
+在markdown内添加以下代码
+
+	{% dplayer "url=http://home.ustc.edu.cn/~mmmwhy/GEM.mp4"  "pic=http://home.ustc.edu.cn/~mmmwhy/GEM.jpg" "loop=yes" "theme=#FADFA3" "autoplay=false" "token=tokendemo" %}
+	
 [点我查看项目演示](https://haojen.github.io/Claudia-theme-blog/)
 
 ![cover](./screenshot/claudia-cover.png)
