@@ -1,7 +1,17 @@
+body {
+    line-height: 1.62;
+}
+
+.content h3 {
+    padding: 0 10px;
+}
+
+.p1{
+
+    padding: 0 10px;
+}
+
 .column.is-7-desktop {
-    -webkit-box-flex: 0;
-    -ms-flex: none;
-    flex: none;
     width: 100%;
 }
 
@@ -58,7 +68,7 @@
 }
 
 .half-height {
-    height: 50%;
+    height: 10%;
 }
 
 .full-width {

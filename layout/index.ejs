@@ -72,16 +72,18 @@
                                         <% if (post.subtitle){%>
                                             <p class="sub-title"><%- post.subtitle %></p>
                                         <%}%>
-                                        <p>
+                                        <p class="p1">
                                             <% post.tags.forEach(function(tag){%>
                                                 <span class="tag is-post-tag"><%- tag.name %></span>
                                             <%})%>
                                         </p>
-                                        <p>
-                                            <%- truncate(strip_html(post.content), {length: 180, omission: '..'}) %>
+                                        <p class="p1">
+                                            <%- truncate(strip_html(post.content), {length: 108, omission: '..'}) %>
                                         </p>
-                                        <p><%= post.date.format(config.date_format) %></p>
+                                        <p class="p1"><%= post.date.format(config.date_format) %></p>
+                                        <p class="p1">
                                         <button class="button is-small">Read More</button>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
